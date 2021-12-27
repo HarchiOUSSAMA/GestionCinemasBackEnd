@@ -16,9 +16,9 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Entity
-@Data @AllArgsConstructor @NoArgsConstructor @ToString
+@Data @AllArgsConstructor@NoArgsConstructor@ToString
 public class Cinema implements Serializable{
-	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private double longitude,latitude,altitude;

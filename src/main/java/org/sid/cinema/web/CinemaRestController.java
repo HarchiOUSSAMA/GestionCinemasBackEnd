@@ -25,7 +25,7 @@ import lombok.Data;
 
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 public class CinemaRestController {
 	@Autowired
 	private FilmRepository filmRepository;
